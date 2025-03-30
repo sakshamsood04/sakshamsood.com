@@ -7,9 +7,9 @@ import Navigation from "@/components/navigation"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "minimalist portfolio",
-  description: "a simple, minimalist portfolio website",
-    generator: 'v0.dev'
+  title: "saksham's portfolio",
+  description: "gallery of my projects, thoughts, and inspirations",
+    //generator: 
 }
 
 export default function RootLayout({
