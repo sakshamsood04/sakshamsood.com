@@ -1,19 +1,9 @@
 export default function Writings() {
   const writings = [
     {
-      title: "thoughts on minimalism",
-      excerpt: "exploring how minimalism extends beyond aesthetics into a philosophy of life and work.",
-      date: "march 15, 2023",
-    },
-    {
-      title: "the value of simplicity in design",
-      excerpt: "discussing why simplicity matters in design and how it improves user experience.",
-      date: "february 2, 2023",
-    },
-    {
-      title: "finding inspiration in everyday objects",
-      excerpt: "reflections on discovering creative inspiration in the mundane aspects of daily life.",
-      date: "december 10, 2022",
+      title: "test",
+      excerpt: "test",
+      date: "March 30, 2025",
     },
   ]
 
