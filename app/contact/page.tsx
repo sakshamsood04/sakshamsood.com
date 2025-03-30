@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="flex items-center">
           <Mail className="w-5 h-5 mr-4" />
           <Link href="mailto:your.email@example.com" className="hover:text-amber-800 transition-colors">
-            ss3296@cornell.edu
+            your.email@example.com
           </Link>
         </div>
 

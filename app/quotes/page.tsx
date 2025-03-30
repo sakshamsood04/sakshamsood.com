@@ -1,8 +1,20 @@
 export default function Quotes() {
   const quotes = [
     {
-      text: "test",
-      author: "test",
+      text: "simplicity is the ultimate sophistication.",
+      author: "leonardo da vinci",
+    },
+    {
+      text: "less is more.",
+      author: "ludwig mies van der rohe",
+    },
+    {
+      text: "perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.",
+      author: "antoine de saint-exupéry",
+    },
+    {
+      text: "simplicity is about subtracting the obvious and adding the meaningful.",
+      author: "john maeda",
     },
   ]
 
