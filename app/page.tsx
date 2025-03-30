@@ -8,7 +8,7 @@ export default function Home() {
       <p className="mb-4">
         i'm a CS major at cornell university who loves building 
       </p>
-      <p>currently based in new york.</p>
+      <p>currently based in Ithaca, NY</p>
     </div>
   )
 }
