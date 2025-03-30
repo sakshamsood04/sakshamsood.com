@@ -87,19 +87,8 @@ body {
 @layer base {
   * {
     @apply border-border;
-    text-transform: lowercase;
   }
   body {
-    @apply bg-amber-50 text-gray-800;
+    @apply bg-background text-foreground;
   }
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply font-light;
-}
-
