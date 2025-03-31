@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="space-y-6">
         <div className="flex items-center">
           <Mail className="w-5 h-5 mr-4" />
-          <Link href="mailto:your.email@example.com" className="hover:text-amber-800 transition-colors">
+          <Link href="mailto:ss3296@cornell.edu" className="hover:text-amber-800 transition-colors">
             ss3296@cornell.edu
           </Link>
         </div>
@@ -23,7 +23,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="hover:text-amber-800 transition-colors"
           >
-            github.com/yourusername
+            github.com/sakshamsood04
           </Link>
         </div>
       </div>
