@@ -1,9 +1,25 @@
 export default function Quotes() {
   const quotes = [
     {
-      text: "test",
-      author: "test",
+      text: "LISTEN TO ME, MORTY. I KNOW THAT NEW SITUATIONS CAN BE INTIMIDATING. YOU'RE LOOKING AROUND, AND IT'S ALL SCARY AND DIFFERENT, BUT, YOU KNOW, M-MEETING THEM HEAD ON, CHARGING RIGHT INTO THEM LIKE A BULL THAT'S HOW WE GROW AS PEOPLE",
+      author: "Rick Sanchez",
     },
+    {
+      text: "Hyperbole isn't the worst crime. Men suffer more from imagining too little than too much",
+      author: "The Greatest Showman",
+    },
+    {
+      text: "Sic Parvis Magna",
+      author: "Sir Francis Drake",
+    },
+    {
+      text: "Do or do not, there is no try",
+      author: "Yoda",
+    },
+    {
+      text: "All men dream, but not equally. Those who dream by night in the dusty recesses of their minds wake in the day to find that it was vanity: but the dreamers of the day are dangerous men, for they may act out their dream with open eyes, to make it possible",
+      author: "T.E. Lawrence",
+    },      
   ]
 
   return (
