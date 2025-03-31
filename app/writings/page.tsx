@@ -1,9 +1,9 @@
 export default function Writings() {
   const writings = [
     {
-      title: "test",
-      excerpt: "test",
-      date: "March 30, 2025",
+      title: "Optimistic Nihilism",
+      excerpt: "Nihilism says nothing matters—but if nothing matters, then all of a sudden, everything matters. That’s the idea behind optimistic nihilism, a way of looking at life that turns meaninglessness into something freeing and exciting. If the universe doesn’t hand us a purpose, that means we get to make our own",
+      date: "August 26, 2024",
     },
   ]
 

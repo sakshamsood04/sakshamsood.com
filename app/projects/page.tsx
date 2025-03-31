@@ -16,7 +16,7 @@ export default function Projects() {
       title: "FitMatch",
       description: "A browser extension that helps users find the perfect size while shopping for clothes online",
       link: "https://github.com/sakshamsood04/fitmatch",
-      year: "2025",
+      year: "2024",
     },
   ]
 
