@@ -6,7 +6,7 @@ export default function Home() {
         welcome to a glimpse into my mind
       </p>
       <p className="mb-4">
-        i'm a CS major at cornell university who loves building 
+        i'm a CS major at cornell university who loves building software
       </p>
       <p>currently based in Ithaca, NY</p>
     </div>

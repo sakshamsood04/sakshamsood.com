@@ -18,7 +18,7 @@ export default function Contact() {
         <div className="flex items-center">
           <Github className="w-5 h-5 mr-4" />
           <Link
-            href="https://github.com/yourusername"
+            href="https://github.com/sakshamsood04"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-amber-800 transition-colors"
