@@ -16,6 +16,18 @@ export default function Writings() {
         <p>Optimistic nihilism is freeing because it takes the pressure off. There’s no cosmic scoreboard keeping track of whether you’re doing life "right." Instead, you get to decide what matters to you personally and focus on that. It’s not about finding some ultimate purpose; it’s about creating one, and that can be anything you want it to be. Life becomes less about searching for answers and more about enjoying the ride, making your own rules, and finding joy in the things that matter to you.</p>
 
         <p>In a weird way, optimistic nihilism makes life more meaningful and makes it matter more. Nothing matters, sure—but that means anything can matter. And that’s great.</p>
+        
+        <p>Optimistic nihilism is freeing because it takes the pressure off. There’s no cosmic scoreboard keeping track of whether you’re doing life "right." Instead, you get to decide what matters to you personally and focus on that. It’s not about finding some ultimate purpose; it’s about creating one, and that can be anything you want it to be. Life becomes less about searching for answers and more about enjoying the ride, making your own rules, and finding joy in the things that matter to you.</p>
+
+        <p>In a weird way, optimistic nihilism makes life more meaningful and makes it matter more. Nothing matters, sure—but that means anything can matter. And that’s great.</p>
+      
+        <p>Optimistic nihilism is freeing because it takes the pressure off. There’s no cosmic scoreboard keeping track of whether you’re doing life "right." Instead, you get to decide what matters to you personally and focus on that. It’s not about finding some ultimate purpose; it’s about creating one, and that can be anything you want it to be. Life becomes less about searching for answers and more about enjoying the ride, making your own rules, and finding joy in the things that matter to you.</p>
+
+        <p>In a weird way, optimistic nihilism makes life more meaningful and makes it matter more. Nothing matters, sure—but that means anything can matter. And that’s great.</p>
+      
+        <p>Optimistic nihilism is freeing because it takes the pressure off. There’s no cosmic scoreboard keeping track of whether you’re doing life "right." Instead, you get to decide what matters to you personally and focus on that. It’s not about finding some ultimate purpose; it’s about creating one, and that can be anything you want it to be. Life becomes less about searching for answers and more about enjoying the ride, making your own rules, and finding joy in the things that matter to you.</p>
+
+        <p>In a weird way, optimistic nihilism makes life more meaningful and makes it matter more. Nothing matters, sure—but that means anything can matter. And that’s great.</p>
       `
     },
   ];
