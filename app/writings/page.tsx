@@ -8,10 +8,10 @@ export default function Writings() {
   const writings = [
     {
       title: "Optimistic Nihilism",
-      excerpt: "Nihilism says nothing matters—but if nothing matters, then all of a sudden, everything matters. That's the idea behind optimistic nihilism, a way of looking at life that turns meaninglessness into something freeing and exciting. If the universe doesn't hand us a purpose, that means we get to make our own",
+      excerpt: "Nihilism says nothing matters-but if nothing matters, then all of a sudden, everything matters. That's the idea behind optimistic nihilism, a way of looking at life that turns meaninglessness into something freeing and exciting. If the universe doesn't hand us a purpose, that means we get to make our own",
       date: "August 26, 2024",
       fullContent: `
-        <p>Nihilism says nothing matters—but if nothing matters, then all of a sudden, everything matters. That's the idea behind optimistic nihilism, a way of looking at life that turns meaninglessness into something freeing and exciting. If the universe doesn't hand us a purpose, that means we get to make our own. We can create meaning out of anything—something as small as enjoying a sunny day or as big as chasing a dream—and there’s something really cool about that.</p>
+        <p>Nihilism says nothing matters-but if nothing matters, then all of a sudden, everything matters. That's the idea behind optimistic nihilism, a way of looking at life that turns meaninglessness into something freeing and exciting. If the universe doesn't hand us a purpose, that means we get to make our own. We can create meaning out of anything—something as small as enjoying a sunny day or as big as chasing a dream—and there’s something really cool about that.</p>
         
         <p>Optimistic nihilism is freeing because it takes the pressure off. There’s no cosmic scoreboard keeping track of whether you’re doing life "right." Instead, you get to decide what matters to you personally and focus on that. It’s not about finding some ultimate purpose; it’s about creating one, and that can be anything you want it to be. Life becomes less about searching for answers and more about enjoying the ride, making your own rules, and finding joy in the things that matter to you.</p>
 
