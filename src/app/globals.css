@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #000000;
+  --background: #F5F5DC;
+  --dark-grey: #333333;
+  --light-grey: #666666;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #000000;
+    --background: #F5F5DC;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 5px var(--dark-grey), 0 0 10px var(--dark-grey), 0 0 15px var(--dark-grey);
+  }
+  
+  .text-light-glow {
+    text-shadow: 0 0 5px var(--light-grey), 0 0 10px var(--light-grey), 0 0 15px var(--light-grey);
+  }
+  
+  .dark-border {
+    border: 2px solid var(--dark-grey);
+    box-shadow: 0 0 10px var(--dark-grey), inset 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pixel-font {
+    font-family: 'Courier New', monospace;
+    image-rendering: pixelated;
+  }
+}
