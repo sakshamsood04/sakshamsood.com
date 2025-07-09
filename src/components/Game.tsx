@@ -271,7 +271,7 @@ const Game: React.FC = () => {
 
       <div className="mt-6 text-base text-black pixel-font text-center select-none">
         <p>Navigate through the house to discover different sections</p>
-        <p className="text-sm text-gray-600 mt-2">Press ESC to close any modal</p>
+        <p className="text-sm text-gray-600 mt-2">Press ESC to close any room</p>
       </div>
 
       {/* Modals */}

@@ -54,21 +54,28 @@ const BaseModal: React.FC<BaseModalProps> = ({ isOpen, onClose, title, children 
       >
         {/* Header */}
         <div 
-          className="bg-gray-100 border-b-2 border-gray-300 px-6 py-4 flex justify-between items-center"
-          style={{ borderBottom: '2px solid #ddd' }}
+          className="bg-gray-800 border-b-2 border-gray-600 px-6 py-4 flex justify-between items-center"
+          style={{ borderBottom: '2px solid #4a5568' }}
         >
           <h2 
-            className="text-2xl font-bold text-white pixel-font"
-            style={{ letterSpacing: '1px' }}
+            className="pixel-font"
+            style={{ 
+              fontSize: '1.5rem',
+              fontWeight: 'bold',
+              color: '#ffffff',
+              letterSpacing: '1px',
+              margin: 0,
+              padding: 0
+            }}
           >
             {title}
           </h2>
           <button
             onClick={onClose}
-            className="text-gray-600 hover:text-black transition-colors p-1 rounded-md hover:bg-gray-200"
+            className="text-gray-300 hover:text-white transition-colors p-1 rounded-md hover:bg-gray-700"
             style={{ 
               backgroundColor: 'transparent',
-              border: '2px solid #ccc',
+              border: '2px solid #6b7280',
               padding: '8px',
               borderRadius: '6px'
             }}
