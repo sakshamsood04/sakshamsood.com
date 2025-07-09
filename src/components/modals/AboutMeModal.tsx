@@ -3,11 +3,11 @@
 import React from 'react';
 import BaseModal from './BaseModal';
 
-interface MusicModalProps {
+interface AboutMeModalProps {
   onClose: () => void;
 }
 
-const MusicModal: React.FC<MusicModalProps> = ({ onClose }) => {
+const AboutMeModal: React.FC<AboutMeModalProps> = ({ onClose }) => {
   return (
     <BaseModal isOpen={true} onClose={onClose} title="ABOUT ME">
       <div className="max-w-2xl mx-auto">
@@ -16,14 +16,14 @@ const MusicModal: React.FC<MusicModalProps> = ({ onClose }) => {
         </div>
         
         <div className="space-y-6">
-          <h1 className="text-3xl font-bold text-gray-800 mb-6">Hi, I'm Saksham</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-6">Hi, I&apos;m Saksham</h1>
           
           <p className="text-lg text-gray-700 mb-4">
             Welcome to a glimpse into my mind
           </p>
           
           <p className="text-lg text-gray-700 mb-4">
-            I'm a CS major at Cornell University who loves building software
+            I&apos;m a CS major at Cornell University who loves building software
           </p>
           
           <p className="text-lg text-gray-700">
@@ -35,4 +35,4 @@ const MusicModal: React.FC<MusicModalProps> = ({ onClose }) => {
   );
 };
 
-export default MusicModal; 
+export default AboutMeModal; 

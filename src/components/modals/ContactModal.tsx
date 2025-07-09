@@ -15,7 +15,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ onClose }) => {
         <div className="text-center mb-8">
           <div className="text-6xl mb-6">📧</div>
           <p className="text-gray-600 text-lg mb-8">
-            I'd love to hear from you. Feel free to reach out through any of the channels below.
+            I&apos;d love to hear from you. Feel free to reach out through any of the channels below.
           </p>
         </div>
 

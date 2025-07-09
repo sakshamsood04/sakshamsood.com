@@ -3,8 +3,8 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import ContactModal from './modals/ContactModal';
 import ProjectsModal from './modals/ProjectsModal';
-import MusicModal from './modals/MusicModal';
-import QuotesModal from './modals/QuotesModal';
+import AboutMeModal from './modals/AboutMeModal';
+import CoolModal from './modals/CoolModal';
 
 interface Position {
   x: number;
@@ -277,8 +277,8 @@ const Game: React.FC = () => {
       {/* Modals */}
       {activeModal === 'contact' && <ContactModal onClose={closeModal} />}
       {activeModal === 'projects' && <ProjectsModal onClose={closeModal} />}
-      {activeModal === 'music' && <MusicModal onClose={closeModal} />}
-      {activeModal === 'quotes' && <QuotesModal onClose={closeModal} />}
+      {activeModal === 'music' && <AboutMeModal onClose={closeModal} />}
+      {activeModal === 'quotes' && <CoolModal onClose={closeModal} />}
     </div>
   );
 };

@@ -3,11 +3,11 @@
 import React from 'react';
 import BaseModal from './BaseModal';
 
-interface QuotesModalProps {
+interface CoolModalProps {
   onClose: () => void;
 }
 
-const QuotesModal: React.FC<QuotesModalProps> = ({ onClose }) => {
+const CoolModal: React.FC<CoolModalProps> = ({ onClose }) => {
   return (
     <BaseModal isOpen={true} onClose={onClose} title="COOL THINGS">
       <div className="flex items-center justify-center h-full">
@@ -23,4 +23,4 @@ const QuotesModal: React.FC<QuotesModalProps> = ({ onClose }) => {
   );
 };
 
-export default QuotesModal; 
+export default CoolModal; 
