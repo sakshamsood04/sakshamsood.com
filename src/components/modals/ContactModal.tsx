@@ -2,7 +2,7 @@
 
 import React from 'react';
 import BaseModal from './BaseModal';
-import { Mail, Github } from 'lucide-react';
+import { Mail, Github, Linkedin } from 'lucide-react';
 
 interface ContactModalProps {
   onClose: () => void;
@@ -20,25 +20,40 @@ const ContactModal: React.FC<ContactModalProps> = ({ onClose }) => {
         </div>
 
         <div className="space-y-6">
-          <div className="flex items-center justify-center">
-            <Mail className="w-5 h-5 mr-4 text-gray-600" />
+          <div className="flex items-center justify-center hover:scale-105 transition-all duration-200">
+            <Mail className="w-5 h-5 mr-8 text-gray-600" />
             <a 
               href="mailto:ss3296@cornell.edu" 
-              className="hover:text-blue-600 transition-colors text-lg"
+              className="text-gray-700 hover:text-gray-900 transition-all duration-200 font-medium inline-block no-underline"
+              style={{ textDecoration: 'none', color: 'inherit' }}
             >
               ss3296@cornell.edu
             </a>
           </div>
 
-          <div className="flex items-center justify-center">
-            <Github className="w-5 h-5 mr-4 text-gray-600" />
+          <div className="flex items-center justify-center hover:scale-105 transition-all duration-200">
+            <Github className="w-5 h-5 mr-8 text-gray-600" />
             <a
               href="https://github.com/sakshamsood04"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-600 transition-colors text-lg"
+              className="text-gray-700 hover:text-gray-900 transition-all duration-200 font-medium inline-block no-underline"
+              style={{ textDecoration: 'none', color: 'inherit' }}
             >
               github.com/sakshamsood04
+            </a>
+          </div>
+
+          <div className="flex items-center justify-center hover:scale-105 transition-all duration-200">
+            <Linkedin className="w-5 h-5 mr-8 text-gray-600" />
+            <a
+              href="https://www.linkedin.com/in/saksham-sood/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-gray-900 transition-all duration-200 font-medium inline-block no-underline"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              linkedin.com/in/saksham-sood
             </a>
           </div>
         </div>

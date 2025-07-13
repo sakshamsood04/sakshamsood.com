@@ -38,9 +38,9 @@ const MAZE = [
 ];
 
 const CHECKPOINTS: Checkpoint[] = [
-  { x: 2.5, y: 1.5, page: 'contact', label: 'Contact', icon: '📧', color: '#00ff00' },
-  { x: 8.5, y: 1.5, page: 'projects', label: 'Projects', icon: '💻', color: '#ffff00' },
-  { x: 2.5, y: 5.5, page: 'music', label: 'About Me', icon: '👤', color: '#ff0080' },
+  { x: 2.5, y: 1.5, page: 'music', label: 'About Me', icon: '👤', color: '#ff0080' },
+  { x: 8.5, y: 1.5, page: 'contact', label: 'Contact', icon: '📧', color: '#00ff00' },
+  { x: 2.5, y: 5.5, page: 'projects', label: 'Projects', icon: '💻', color: '#ffff00' },
   { x: 8.5, y: 5.5, page: 'quotes', label: 'Cool Things', icon: '📜', color: '#ff8000' },
 ];
 
